@@ -96,6 +96,7 @@ function updateProfilePortfolio(profileData) {
         subTitle.innerText = portfolio.name;
         a.href = portfolio.url;
         a.innerText = portfolio.name;
+        a.target = '_blank'
 
         li.append(subTitle, a);
 
